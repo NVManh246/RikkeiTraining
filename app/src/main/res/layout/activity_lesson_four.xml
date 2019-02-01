@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <Button
+        android:id="@+id/button_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_five" />
+
+    <Button
+        android:id="@+id/button_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sp_20"
+        android:layout_above="@+id/button_five"
+        android:layout_toLeftOf="@+id/button_five"
+        android:layout_marginRight="@dimen/dp_negative_30"
+        android:text="@string/button_three" />
+
+    <Button
+        android:id="@+id/button_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sp_20"
+        android:layout_above="@+id/button_five"
+        android:layout_toRightOf="@+id/button_five"
+        android:layout_marginLeft="@dimen/dp_negative_30"
+        android:text="@string/button_four" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sp_20"
+        android:layout_above="@+id/button_three"
+        android:layout_toLeftOf="@id/button_three"
+        android:layout_marginRight="@dimen/dp_negative_30"
+        android:text="@string/button_one" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sp_20"
+        android:layout_above="@+id/button_three"
+        android:layout_toRightOf="@+id/button_four"
+        android:layout_marginLeft="@dimen/dp_negative_30"
+        android:text="@string/button_two" />
+
+</RelativeLayout>
