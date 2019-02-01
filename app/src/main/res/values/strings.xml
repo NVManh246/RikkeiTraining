@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">RikkeiTraining</string>
+    <string name="app_name">BasicLayout</string>
+    <string name="red">Red</string>
+    <string name="white">White</string>
+    <string name="blue">Blue</string>
+    <string name="set_color">Set color</string>
+    <string name="clear">Clear</string>
+    <string name="happy_new_year">HAPPY NEW YEAR</string>
+    <string name="button_one">button 1</string>
+    <string name="button_two">button 2</string>
+    <string name="button_three">button 3</string>
+    <string name="button_four">button 4</string>
+    <string name="button_five">button 5</string>
 </resources>
